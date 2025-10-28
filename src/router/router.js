@@ -9,16 +9,6 @@ import Register from '../views/RegisterView.vue';
 
 const routes = [
   {
-    path: '/Login',
-    name: 'Login',
-    component: Login,
-  },
-  {
-    path: '/Register',
-    name: 'Register',
-    component: Register,
-  },
-  {
     path: '/',
     name: 'Home',
     component: Home,
@@ -42,6 +32,10 @@ const routes = [
     path: '/Success',
     name: 'Success',
     component: SuccessView,
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/'             
   }
 ];
 
