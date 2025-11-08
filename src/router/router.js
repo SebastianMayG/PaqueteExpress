@@ -1,11 +1,12 @@
-import { createRouter, createWebHistory } from 'vue-router';
+//import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import FormView from '../views/FormView.vue';
 import ServiceView from '../views/ServiceView.vue';
 import DetailsView from '../views/DetailsView.vue';
 import SuccessView from '../views/SuccessView.vue';
-import Login from '../views/LoginView.vue';
-import Register from '../views/RegisterView.vue';
+//import Login from '../views/LoginView.vue';
+//import Register from '../views/RegisterView.vue';
 
 const routes = [
   {
