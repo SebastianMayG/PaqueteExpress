@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: 'https://SebastianMayG.github.io/PaqueteExpress/',
+  base: '/PaqueteExpress/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
