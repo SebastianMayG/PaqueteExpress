@@ -1,5 +1,4 @@
-<script setup>
-
+<script>
 </script>
 
 <template>
@@ -10,7 +9,7 @@
                     <img src="@/assets/img-home.jpg" class="d-block w-100 imagen" alt="...">
                     <div class="carousel-caption d-flex flex-column align-items-center">
                         <h1 class="display-bold text-white text-center">Empieza a cotizar con nosotros</h1>
-                        <router-link to="/form" class="btn btn-light">Comenzar</router-link>
+                        <router-link to="/Form" class="btn btn-light">Comenzar</router-link>
                     </div>
                 </div>
             </div>
@@ -25,7 +24,7 @@
                         <div class="card-body text-center">
                             <p class="card-title">DHL</p>
                             <p class="card-text">Excelencia. Entrega sencilla.</p>
-                            <router-link to="/form" class="btn btn-success">Cotizar</router-link>
+                            <router-link to="/Form" class="btn btn-success">Cotizar</router-link>
                         </div>
                     </div>
                 </div>
@@ -36,7 +35,7 @@
                         <div class="card-body text-center">
                             <p class="card-title">Estafeta</p>
                             <p class="card-text">Tu próximo envío... ¡Estafétalo!.</p>
-                            <router-link to="/form" class="btn btn-success">Cotizar</router-link>
+                            <router-link to="/Form" class="btn btn-success">Cotizar</router-link>
                         </div>
                     </div>
                 </div>
@@ -47,7 +46,7 @@
                         <div class="card-body text-center">
                             <p class="card-title">Fedex</p>
                             <p class="card-text">El mundo a tiempo.</p>
-                            <router-link to="/form" class="btn btn-success">Cotizar</router-link>
+                            <router-link to="/Form" class="btn btn-success">Cotizar</router-link>
                         </div>
                     </div>
                 </div>

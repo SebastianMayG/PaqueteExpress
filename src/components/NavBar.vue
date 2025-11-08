@@ -20,7 +20,7 @@
                         <router-link to="/" class="nav-link">Contáctanos</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/form" class="nav-link">Cotizar</router-link>
+                        <router-link to="/Form" class="nav-link">Cotizar</router-link>
                     </li>
                 </ul>
             </div>

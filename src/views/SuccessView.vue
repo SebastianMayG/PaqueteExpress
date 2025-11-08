@@ -13,7 +13,7 @@
 
         <div class="mt-5">
             <router-link to="/" class="btn btn-warning w-100 mb-3">Inicio</router-link>
-            <router-link to="/form" class="btn btn-success w-100 mb-3">Nuevo envío</router-link>
+            <router-link to="/Form" class="btn btn-success w-100 mb-3">Nuevo envío</router-link>
         </div>  
     </div>
 </template>
